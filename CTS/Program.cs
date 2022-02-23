@@ -1,47 +1,50 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-public class Program
+namespace CTS
 {
-
-    public static void Main(string[] args)
+    public class Program
     {
 
-        int i = 10;
+        public static void Main(string[] args)
+        {
 
-        // Type Integer
+            int i = 10;
 
-        Type tInteger = i.GetType();
+            // Type Integer
 
-        Console.WriteLine("Integer information: ");
+            Type tInteger = i.GetType();
 
-        Console.WriteLine(tInteger.BaseType);
+            Console.WriteLine("Integer information: ");
 
-        Console.WriteLine(tInteger.Name);
+            Console.WriteLine(tInteger.BaseType);
 
-        Console.WriteLine(tInteger.FullName);
+            Console.WriteLine(tInteger.Name);
 
-        Console.WriteLine(tInteger.Namespace);
+            Console.WriteLine(tInteger.FullName);
 
-        Console.WriteLine();
+            Console.WriteLine(tInteger.Namespace);
 
-        // Type String
+            Console.WriteLine();
 
-        string text = "computer";
+            // Type String
 
-        Type tString = text.GetType();
+            string text = "computer";
 
-        Console.WriteLine("String information: ");
+            Type tString = text.GetType();
 
-        Console.WriteLine(tString.BaseType);
+            Console.WriteLine("String information: ");
 
-        Console.WriteLine(tString.Name);
+            Console.WriteLine(tString.BaseType);
 
-        Console.WriteLine(tString.FullName);
+            Console.WriteLine(tString.Name);
 
-        Console.WriteLine(tString.Namespace);
+            Console.WriteLine(tString.FullName);
+
+            Console.WriteLine(tString.Namespace);
 
 
 
+        }
     }
 }
 
