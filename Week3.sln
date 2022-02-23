@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{A0EBA04E-3A5A-4B38-9688-65725156C1D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{89CAE556-87A5-49AD-85A3-3556F33134BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A0EBA04E-3A5A-4B38-9688-65725156C1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EBA04E-3A5A-4B38-9688-65725156C1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EBA04E-3A5A-4B38-9688-65725156C1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,5 @@
 ﻿
-namespace Interfaces
+namespace Delegates
 {
     delegate int Calculate(int a, int b);
     public class Program
