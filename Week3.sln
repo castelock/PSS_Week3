@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingUnboxing", "BoxingUnb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals", "Equals\Equals.csproj", "{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceEquals", "ReferenceEquals\ReferenceEquals.csproj", "{66838126-2E76-4BE9-8BA8-789E3720C5D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66838126-2E76-4BE9-8BA8-789E3720C5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66838126-2E76-4BE9-8BA8-789E3720C5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66838126-2E76-4BE9-8BA8-789E3720C5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66838126-2E76-4BE9-8BA8-789E3720C5D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
