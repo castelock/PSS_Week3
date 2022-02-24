@@ -5,15 +5,17 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTS", "CTS\CTS.csproj", "{E3A16B3A-13F4-42F7-898F-ED64716A9BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{7D8B6174-9425-46FD-BC4D-FE6FC79C15CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{7D8B6174-9425-46FD-BC4D-FE6FC79C15CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{94C4E500-053B-4879-B4C3-B763F00B03C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{94C4E500-053B-4879-B4C3-B763F00B03C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{C66EDF8F-F24E-48EC-9B03-1D708B9AFAC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enums", "Enums\Enums.csproj", "{C66EDF8F-F24E-48EC-9B03-1D708B9AFAC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{A0EBA04E-3A5A-4B38-9688-65725156C1D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{A0EBA04E-3A5A-4B38-9688-65725156C1D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{89CAE556-87A5-49AD-85A3-3556F33134BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxingUnboxing", "BoxingUnboxing\BoxingUnboxing.csproj", "{89CAE556-87A5-49AD-85A3-3556F33134BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equals", "Equals\Equals.csproj", "{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89CAE556-87A5-49AD-85A3-3556F33134BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC87E8D-FD45-46C3-A6B1-E6C359A21C29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
