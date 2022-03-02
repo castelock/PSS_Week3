@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamplesEquality", "Example
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEquatable", "IEquatable\IEquatable.csproj", "{3235B423-72D3-4666-A519-E45F9EA1A015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Struct", "Struct\Struct.csproj", "{72CCD00F-6F78-4F6D-8B21-8BE1B8340D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csproj", "{72CCD00F-6F78-4F6D-8B21-8BE1B8340D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEqualityComparer", "IEqualityComparer\IEqualityComparer.csproj", "{EE070C7E-BE25-4AF9-9AFE-537E71C42810}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{72CCD00F-6F78-4F6D-8B21-8BE1B8340D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72CCD00F-6F78-4F6D-8B21-8BE1B8340D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72CCD00F-6F78-4F6D-8B21-8BE1B8340D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE070C7E-BE25-4AF9-9AFE-537E71C42810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE070C7E-BE25-4AF9-9AFE-537E71C42810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE070C7E-BE25-4AF9-9AFE-537E71C42810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE070C7E-BE25-4AF9-9AFE-537E71C42810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
