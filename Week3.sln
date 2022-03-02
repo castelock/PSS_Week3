@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEqualityComparer", "IEqual
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStructuralEquatable", "IStructuralEquatable\IStructuralEquatable.csproj", "{BBE87BB5-1072-4E00-92EE-B55CA84483B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarIComparable", "CarIComparable\CarIComparable.csproj", "{2C57C1ED-F652-49D5-9D82-860229CAEFA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{BBE87BB5-1072-4E00-92EE-B55CA84483B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBE87BB5-1072-4E00-92EE-B55CA84483B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBE87BB5-1072-4E00-92EE-B55CA84483B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C57C1ED-F652-49D5-9D82-860229CAEFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C57C1ED-F652-49D5-9D82-860229CAEFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C57C1ED-F652-49D5-9D82-860229CAEFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C57C1ED-F652-49D5-9D82-860229CAEFA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
