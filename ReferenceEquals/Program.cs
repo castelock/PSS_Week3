@@ -14,8 +14,7 @@
             p = q;
             Console.WriteLine(Object.ReferenceEquals(p, q));
             Console.WriteLine(Object.ReferenceEquals(o, p));
-
-
+             
 
         }
 
