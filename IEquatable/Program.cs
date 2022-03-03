@@ -17,8 +17,8 @@ namespace Equals
 
             // ESCENARIO 2: False (posible error)
             Object obj = usuario2;
-            Console.WriteLine("usuario1.Equals(obj): {0}", usuario1.Equals(obj));
-
+            Console.WriteLine("usuario1.Equals(obj): {0}", usuario1.Equals(obj));            
+            
             // ESCENARIO 3: False (posible error)          
             ArrayList listaA = new();
             listaA.Add(usuario1);

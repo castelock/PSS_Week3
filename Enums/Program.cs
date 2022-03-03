@@ -43,8 +43,12 @@ namespace Enums
                     {
                         Console.WriteLine(fruit);
                     }
-
                     
+                    foreach (var fruit in Enum.GetValues(typeof(Fruits)))
+                    {
+                        Console.WriteLine(fruit);
+                    }
+
                     break;
                 case 2:
                     Days meetingDays = Days.Monday | Days.Wednesday | Days.Friday;

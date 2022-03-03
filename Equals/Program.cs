@@ -20,7 +20,7 @@
             Console.WriteLine("{0} = {1}: {2}",
                               point3Da, point3Dc, point3Da.Equals(point3Dc));
 
-
+            
 
         }
 

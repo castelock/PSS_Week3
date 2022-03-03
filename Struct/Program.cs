@@ -6,7 +6,7 @@
         {
             public int x;
             public int y;
-
+            
             public override string ToString()
             {
                 return "The value of x is: " + x.ToString() + " and the value of y is: " + y.ToString();

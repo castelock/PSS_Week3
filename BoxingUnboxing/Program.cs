@@ -36,7 +36,7 @@ namespace BoxingUnboxing
             int i = (int)obj2;
 
             // Display result
-            Console.WriteLine("Value of ob object is : " + obj2);
+            Console.WriteLine("Value of object is : " + obj2);
             Console.WriteLine("Value of i is : " + i);
         }
 
